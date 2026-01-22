@@ -7,8 +7,7 @@ import os
 # ---------- PAGE CONFIG (MUST BE FIRST) ----------
 st.set_page_config(
     page_title="AI Tools Project",
-    layout="wide"
-)
+    layout="centered" )
 
 # ---------- TITLE ----------
 st.markdown(
