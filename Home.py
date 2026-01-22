@@ -3,6 +3,7 @@
 import streamlit as st
 import base64
 import os
+from PIL import Image
 
 # ---------- PAGE CONFIG (MUST BE FIRST) ----------
 st.set_page_config(
@@ -18,7 +19,8 @@ st.markdown(
 st.markdown("<br>", unsafe_allow_html=True)
 
 # ---------- IMAGE ----------
-image_path = ("Q3.jpg" , width=900)  
+img = Image.open("Q3.jpg")
+st.image(img, width=900)
 
 if os.path.exists(image_path):
     with open(image_path, "rb") as img_file:
