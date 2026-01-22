@@ -21,10 +21,6 @@ st.markdown("<br>", unsafe_allow_html=True)
 # ---------- IMAGE ----------
 st.image("Q3.jpg")
 
-if os.path.exists(image_path):
-    with open(image_path, "rb") as img_file:
-        encoded_img = base64.b64encode(img_file.read()).decode()
-
 st.markdown(
     f"""
     <style>
