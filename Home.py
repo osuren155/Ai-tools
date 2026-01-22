@@ -92,23 +92,42 @@ with col2:
 st.markdown("""
 ## 📊 Dashboard – Introduction
 
-This dashboard presents a comprehensive analysis of AI tools usage data
-organized across key dimensions such as:
+This dashboard presents a **comprehensive and interactive analysis of AI tools usage data**, organized across key dimensions such as:
 
-- **Category**
-- **Launch Date**
-- **Pricing Model (Free / Paid)**
-- **Monthly Traffic**
+- **Category** (Text, Image, Video, Code)  
+- **Launch Date**  
+- **Pricing Model** (Free / Paid / Both)  
+- **Monthly Traffic**  
 - **Popularity Score**
 
-### 🎯 Objective
-- Analyze **usage trends**
-- Understand **adoption patterns**
-- Compare **Free vs Paid tools**
-- Identify **top-performing AI tools**
+---
 
-### 💡 Key Insight
-This dashboard converts raw data into interactive insights
-to support **data-driven decision making**.
+## 🎯 Objectives
+
+- Analyze **AI tools usage trends over time**  
+- Understand **adoption patterns across categories**  
+- Compare **Free vs Paid tools performance**  
+- Identify **top-performing and high-growth AI tools**  
+- Support **data-driven insights for product and market analysis**
+
+---
+
+## 💡 Key Insights
+
+- Discover **which AI categories dominate user traffic**  
+- Track **growth patterns of newly launched AI tools**  
+- Evaluate how **pricing models impact adoption and popularity**  
+- Highlight **tools with high traffic but lower popularity (and vice versa)**
+
+---
+
+## 🚀 Value of This Dashboard
+
+This dashboard transforms **raw Kaggle data into meaningful visual insights** using interactive charts and filters, enabling:
+
+- Faster decision-making  
+- Clear trend identification  
+- Effective storytelling through data  
+
+It is especially useful for **data analysts, researchers, and AI enthusiasts** exploring the evolving AI tools ecosystem.
 """)
-
