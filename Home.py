@@ -19,7 +19,7 @@ st.markdown(
 st.markdown("<br>", unsafe_allow_html=True)
 
 # ---------- IMAGE ----------
-image_path = "Q3.jpg"
+image_path = ("Q3.jpg",width=2000)  
 
 if os.path.exists(image_path):
     with open(image_path, "rb") as img_file:
