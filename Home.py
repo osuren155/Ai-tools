@@ -7,23 +7,8 @@ import os
 # ---------- PAGE CONFIG (MUST BE FIRST) ----------
 st.set_page_config(
     page_title="AI Tools Project",
-    layout="centered" )
-st.set_page_config(
-    page_title="AI Tools Project",
-    layout="centered"
-)
-
-st.markdown(
-    """
-    <style>
-    .block-container {
-        max-width: 1100px;
-        margin: auto;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+    layout="wide"
+    )
 # ---------- TITLE ----------
 st.markdown(
     '<h1 style="text-align: center;">Detailed Summary: AI Tools Usage Dataset (2025)</h1>',
