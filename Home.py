@@ -1,8 +1,6 @@
 # py -m streamlit run home.py
 
 import streamlit as st
-import base64
-import os
 
 
 # ---------- PAGE CONFIG (MUST BE FIRST) ----------
@@ -19,7 +17,7 @@ st.markdown(
 st.markdown("<br>", unsafe_allow_html=True)
 
 # ---------- IMAGE ----------
-st.image("Q3.jpg")
+st.image("Q3", width=900)
 
 st.markdown(
     f"""
