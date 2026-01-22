@@ -3,7 +3,7 @@
 import streamlit as st
 import base64
 import os
-from PIL import Image
+
 
 # ---------- PAGE CONFIG (MUST BE FIRST) ----------
 st.set_page_config(
