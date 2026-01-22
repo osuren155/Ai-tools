@@ -16,8 +16,7 @@ if st.button("⬅ Back to Home", key="back_home_dash"):
 
 st.markdown("<br>", unsafe_allow_html=True)
 
-# ---------- IMAGE (s2.jpg) ----------
-image_path = r"D:\Ai tools\Q1.jpg"
+image_path = "Q1.jpg"
 
 with open(image_path, "rb") as img_file:
     encoded_img = base64.b64encode(img_file.read()).decode()
